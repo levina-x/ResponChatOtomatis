@@ -60,9 +60,9 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hay, silahkan ketik pesanmu dibawah ini, nanti saya akan membalasanya Jika sudah online.\n"
-    "───────────────────────\n"
-    "©Manage by : @Vckyouubitch"
+    "Hai, saya bot asisten levina, silahkan ketik pesanmu dibawah, levina akan membalasnya jika sudah online.\n"
+    "──────────────────────\n"
+    "👩‍💻 manage by : @dlwrml"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -73,8 +73,8 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
+        "sistem berfungsi <b>master</b>\n"
+        "jangan lupa join [Channel Support](https://t.me/levinachannel)"
     )
 )
 # message to indicate,
@@ -83,8 +83,8 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "Pesan ini sudah dihapus\n"
-        "Jangan lupa Join [Channel Support](https://t.me/Vckyouuu)"
+        "pesan ini telah dihapus\n"
+        "jangan lupa Join [Channel Support](https://t.me/levinachannel)"
     )
 )
 # IDEKWBYRW
@@ -96,8 +96,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>banned</b> forever.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "kamu telah di <b>banned</b> forever.\n\n"
+        "<u>alasan</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -116,7 +116,7 @@ IS_UN_BANED_MESSAGE_TEXT = get_config(
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "Bot diblokir oleh pengguna ini."
+    "bot diblokir oleh pengguna ini."
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
